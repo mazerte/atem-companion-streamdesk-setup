@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile majorVersion="1" minorVersion="5" product="ATEM Constellation 8K (4K Mode)">
+    <MacroPool>
+        <Macro index="0" name="B1 Full" description="Box1 Fullscreen">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+        </Macro>
+        <Macro index="1" name="B2 Full" description="Box2 Fullscreen">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+        </Macro>
+        <Macro index="2" name="B3 Full" description="Box3 Fullscreen">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+        </Macro>
+
+        <Macro index="3" name="B2 PIP B1 BL" description="Box2 Fullscreen with PIP of Box1 Bottom Left">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.3"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-12.666666666666666"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.71875"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="7"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="7"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+        </Macro>
+        <Macro index="4" name="B3 PIP B1 BL" description="Box3 Fullscreen with PIP of Box1 Bottom Left">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.3"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-12.666666666666666"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.71875"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="7"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="7"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+        </Macro>
+        <Macro index="5" name="B2 PIP B1 BR" description="Box2 Fullscreen with PIP of Box1 Bottom Right">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.3"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="12.666666666666666"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.71875"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="7"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="7"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+        </Macro>
+        <Macro index="6" name="B3 PIP B1 BR" description="Box3 Fullscreen with PIP of Box1 Bottom Right">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.3"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="12.666666666666666"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.71875"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="7"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="7"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+        </Macro>
+
+        <Macro index="7" name="B2 Side B1 L" description="Box2 with a side with of Box1 Left">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="True" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.34"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-12.666666666666666"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="7"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="7"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.79"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="3.1666666666666665"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
+        </Macro>
+        <Macro index="8" name="B3 Side B1 L" description="Box3 with a side with of Box1 Left">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="True" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.34"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-12.666666666666666"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="7"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="7"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="0.79"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="3.1666666666666665"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
+        </Macro>
+        <Macro index="9" name="B2 Side B1 R" description="Box2 with a side with of Box1 Right">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="True" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.34"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="12.666666666666666"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="7"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="7"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.79"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="-3.1666666666666665"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
+        </Macro>
+        <Macro index="10" name="B3 Side B1 R" description="Box3 with a side with of Box1 Right">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="True" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.34"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="12.666666666666666"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="7"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="7"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="0.79"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-3.1666666666666665"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="0"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
+        </Macro>
+
+        <Macro index="11" name="B1 vs B2" description="Box1 vs Box2">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+        </Macro>
+        <Macro index="12" name="B1 vs B3" description="Box1 vs Box2">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+        </Macro>
+        <Macro index="13" name="B2 vs B1" description="Box2 vs Box1">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="-8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+        </Macro>
+        <Macro index="14" name="B2 vs B3" description="Box2 vs Box3">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="-8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+        </Macro>
+        <Macro index="15" name="B3 vs B1" description="Box3 vs Box1">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+        </Macro>
+        <Macro index="16" name="B3 vs B2" description="Box3 vs Box2">
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="False" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True" />
+          <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False" />
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+          <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+          <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-8"/>
+          <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+          <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="8"/>
+          <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+          <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="8"/>
+          <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+        </Macro>
+
+        <Macro index="17" name="B1 Full -> B2 PIP B1 BL">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="18" name="B1 Full -> B3 PIP B1 BL">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="19" name="B1 Full -> B2 PIP B1 BR">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="20" name="B1 Full -> B3 PIP B1 BR">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="21" name="B1 Full -> B2 Side B1 L">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="22" name="B1 Full -> B3 Side B1 L">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="23" name="B1 Full -> B2 Side B1 R">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="24" name="B1 Full -> B3 Side B1 R">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="25" name="B1 Full -> B1 vs B2">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="24"/>
+        </Macro>
+        <Macro index="26" name="B1 Full -> B1 vs B3">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="24"/>
+        </Macro>
+        <Macro index="27" name="B1 Full -> B2 vs B1">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="-24"/>
+        </Macro>
+        <Macro index="28" name="B1 Full -> B3 vs B1">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-24"/>
+        </Macro>
+        <Macro index="29" name="B2 Full -> B2 PIP B1 BL">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="30" name="B2 Full -> B2 PIP B1 BR">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="31" name="B2 Full -> B2 Side B1 L">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="32" name="B2 Full -> B2 Side B1 R">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="33" name="B2 Full -> B1 vs B2">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-24"/>
+        </Macro>
+        <Macro index="34" name="B2 Full -> B2 vs B1">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="24"/>
+        </Macro>
+        <Macro index="35" name="B2 Full -> B2 vs B3">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-24"/>
+        </Macro>
+        <Macro index="36" name="B2 Full -> B3 vs B2">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="24"/>
+        </Macro>
+        <Macro index="37" name="B3 Full -> B3 PIP B1 BL">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="38" name="B3 Full -> B3 PIP B1 BR">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="39" name="B3 Full -> B3 Side B1 L">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="40" name="B3 Full -> B3 Side B1 R">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="41" name="B3 Full -> B1 vs B3">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-24"/>
+        </Macro>
+        <Macro index="42" name="B3 Full -> B3 vs B1">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="24"/>
+        </Macro>
+        <Macro index="43" name="B3 Full -> B2 vs B3">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="-24"/>
+        </Macro>
+        <Macro index="44" name="B3 Full -> B3 vs B2">
+          <Op __from="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="24"/>
+        </Macro>
+        <Macro index="45" name="B2 PIP B1 BL -> B1 Full">
+        </Macro>
+        <Macro index="46" name="B2 PIP B1 BL -> B2 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="47" name="B2 PIP B1 BL -> B2 Side B1 L">
+        </Macro>
+        <Macro index="48" name="B2 PIP B1 BL -> B1 vs B2">
+        </Macro>
+        <Macro index="49" name="B3 PIP B1 BL -> B1 Full">
+        </Macro>
+        <Macro index="50" name="B3 PIP B1 BL -> B3 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="51" name="B3 PIP B1 BL -> B3 Side B1 L">
+        </Macro>
+        <Macro index="52" name="B3 PIP B1 BL -> B1 vs B3">
+        </Macro>
+        <Macro index="53" name="B2 PIP B1 BR -> B1 Full">
+        </Macro>
+        <Macro index="54" name="B2 PIP B1 BR -> B2 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="55" name="B2 PIP B1 BR -> B2 Side B1 R">
+        </Macro>
+        <Macro index="56" name="B2 PIP B1 BR -> B1 vs B2">
+        </Macro>
+        <Macro index="57" name="B3 PIP B1 BR -> B1 Full">
+        </Macro>
+        <Macro index="58" name="B3 PIP B1 BR -> B3 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="59" name="B3 PIP B1 BR -> B3 Side B1 R">
+        </Macro>
+        <Macro index="60" name="B3 PIP B1 BR -> B1 vs B3">
+        </Macro>
+        <Macro index="61" name="B2 Side B1 L -> B1 Full">
+        </Macro>
+        <Macro index="62" name="B2 Side B1 L -> B2 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="63" name="B2 Side B1 L -> B2 PIP B1 BL">
+        </Macro>
+        <Macro index="64" name="B2 Side B1 L -> B1 vs B2">
+        </Macro>
+        <Macro index="65" name="B3 Side B1 L -> B1 Full">
+        </Macro>
+        <Macro index="66" name="B3 Side B1 L -> B3 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-20"/>
+        </Macro>
+        <Macro index="67" name="B3 Side B1 L -> B3 PIP B1 BL">
+        </Macro>
+        <Macro index="68" name="B3 Side B1 L -> B1 vs B3">
+        </Macro>
+        <Macro index="69" name="B2 Side B1 R -> B1 Full">
+        </Macro>
+        <Macro index="70" name="B2 Side B1 R -> B2 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="71" name="B2 Side B1 R -> B2 PIP B1 BR">
+        </Macro>
+        <Macro index="72" name="B2 Side B1 R -> B2 vs B1">
+        </Macro>
+        <Macro index="73" name="B3 Side B1 R -> B1 Full">
+        </Macro>
+        <Macro index="74" name="B3 Side B1 R -> B3 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="20"/>
+        </Macro>
+        <Macro index="75" name="B3 Side B1 R -> B3 PIP B1 BR">
+        </Macro>
+        <Macro index="76" name="B3 Side B1 R -> B3 vs B1">
+        </Macro>
+        <Macro index="77" name="B1 vs B2 -> B1 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="24"/>
+        </Macro>
+        <Macro index="78" name="B1 vs B2 -> B2 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-24"/>
+        </Macro>
+        <Macro index="79" name="B1 vs B2 -> B2 Side B1 L">
+        </Macro>
+        <Macro index="80" name="B1 vs B2 -> B2 PIP B1 BL">
+        </Macro>
+        <Macro index="81" name="B1 vs B3 -> B1 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="24"/>
+        </Macro>
+        <Macro index="82" name="B1 vs B3 -> B3 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-24"/>
+        </Macro>
+        <Macro index="83" name="B1 vs B3 -> B3 Side B1 L">
+        </Macro>
+        <Macro index="84" name="B1 vs B3 -> B3 PIP B1 BL">
+        </Macro>
+        <Macro index="85" name="B2 vs B1 -> B1 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="-24"/>
+        </Macro>
+        <Macro index="86" name="B2 vs B1 -> B2 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="24"/>
+        </Macro>
+        <Macro index="87" name="B2 vs B1 -> B2 Side B1 R">
+        </Macro>
+        <Macro index="88" name="B2 vs B1 -> B2 PIP B1 BR">
+        </Macro>
+        <Macro index="89" name="B2 vs B3 -> B3 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="-24"/>
+        </Macro>
+        <Macro index="90" name="B2 vs B3 -> B2 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="24"/>
+        </Macro>
+        <Macro index="91" name="B3 vs B1 -> B3 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="24"/>
+        </Macro>
+        <Macro index="92" name="B3 vs B1 -> B1 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-24"/>
+        </Macro>
+        <Macro index="93" name="B3 vs B1 -> B3 Side B1 R">
+        </Macro>
+        <Macro index="94" name="B3 vs B1 -> B3 PIP B1 BR">
+        </Macro>
+        <Macro index="95" name="B3 vs B2 -> B3 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="24"/>
+        </Macro>
+        <Macro index="96" name="B3 vs B2 -> B2 Full">
+          <Op __to="true" id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-24"/>
+        </Macro>
+    </MacroPool>
+    <MacroControl loop="False"/>
+</Profile>
